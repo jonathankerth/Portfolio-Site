@@ -28,11 +28,11 @@
 				class="page-header__item"
 				id="jk-logo"
 			/>
-			<main class="main-nagivation page-header__item">
+			<nav class="main-nagivation page-header__item">
 				<ul role="menubar" class="navigation-list">
 					<li role="presentation">
 						<a
-							href="Index - Jonathan Kerth.html"
+							href="index.html"
 							role="menuitem"
 							class="navigation-list__item navigation-list__item--active"
 							>Home</a
@@ -64,43 +64,41 @@
 						>
 					</li>
 				</ul>
-			</main>
+			</nav>
 		</header>
-		<h1>Contact</h1>
-		<nav>
-			Jonathan Kerth<br />
-			Portland, OR<br />
-			97215<br />
-			United States<br />
-			<a href="Tel +1 (630)373-8754">1+(630)373-8754)</a><br />
-			<a href="https://twitter.com/JonathanKerth">@Jonathankerth</a><br />
-			<a href="mailto:Jonathanpkerth@gmail.com"
-				>Jonathanpkerth@gmail.com</a
-			><br />
-			<a href="mailto:Jonathanpkerth@gmail.com">Contact me</a>
-		</nav>
-		<form action="" method="post">
-			<label class="standard-label" for="contact-email">E-mail:</label>
-			<input type="email" id="contact-email" required />
-
-			<label for="phone number">Telephone:</label>
-			<input
-				id="phone number"
-				type="tele"
-				pattern="\d{3}[\-]\d{3}[\-]\d{4}"
+		<main class="profile">
+			<img
+				src="img/selfie.jpeg"
+				class="profile_portrait"
+				alt="a photograph of me"
 			/>
-
-			<label for="Message">Message</label>
-			<textarea maxlength="240" id="Message" required></textarea>
-			<input type="submit" value="Send message" />
-		</form>
+			<h1>Hello World</h1>
+			<p>
+				My name is Jonathan Kerth. I am a <span>web</span> developer
+				from Portland, Oregon.
+			</p>
+			<a href="https://github.com/jonathankerth"
+				>Check out some of my code</a
+			>
+			<a href="#">Default Link</a>
+			<button
+				type="button"
+				color="#00000"
+				href="https://github.com/jonathankerth/pokemon-js"
+			>
+				My First Project
+			</button>
+			<button class="button__secondary" color="#00000">
+				Secondary Button
+			</button>
+		</main>
 		<footer class="page-footer">
 			<p>Find me on</p>
 			<div class="social-media">
 				<!-- Github logo -->
-				<a href="https://github.com/jonathankerth">
-					<img src="img/github_icon.svg" alt="Github"
-				/></a>
+				<a href="https://github.com/jonathankerth"
+					><img src="img/github_icon.svg" alt="github" />
+				</a>
 				<!-- Twitter logo -->
 				<a href="https://twitter.com/JonathanKerth"
 					><img src="img/twitter_icon.svg" alt="Twitter" />
