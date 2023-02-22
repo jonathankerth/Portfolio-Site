@@ -1,0 +1,7 @@
+---
+deployment:
+    tasks:
+        - export DEPLOYPATH=/home/lzmq1c1jdwhe/public_html/index
+        -/bin/img/
+        -/bin/js/
+        -/bin/Styles/
