@@ -1,8 +1,8 @@
 ---
-deployment:
+deploy:
     tasks:
         - export DEPLOYPATH=/home/lzmq1c1jdwhe/public_html/
         - /bin/cp index.html $DEPLOYPATH
-        - /bin/cp -R img $DEPLOYPATH
-        - /bin/cp -R style $DEPLOYPATH
-        - /bin/cp -R js $DEPLOYPATH
+        - /bin/cp -R img/ $DEPLOYPATH/img/
+        - /bin/cp -R style/ $DEPLOYPATH/style/
+        - /bin/cp -R js/ $DEPLOYPATH/js/
