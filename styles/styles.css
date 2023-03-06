@@ -7,8 +7,8 @@ font-family: 'Latos', sans-serif;
 	--secondary-color: #e0b354;
 	--dark-grey: #2b2b2b;
 	--background-color: #d3d3d3;
+	--button-background-color: #909090;
 	--a: #489c79;
-	--button-background-color: #add8e6;
 	--grid-background: #d3d3d3;
 	--header-font-weight: 700;
 }
@@ -97,7 +97,7 @@ button {
 	font-family: inherit;
 	/* styles the background color, font color, and text decoration (underline, etc.) of the button */
 	background-color: var(--button-background-color);
-	color: var(--background-color);
+	color: var(#2b2b2b);
 	/*adds spacing to the button (this will be discussed more in-depth later) */
 	padding: 10px;
 	border-radius: 3px;
